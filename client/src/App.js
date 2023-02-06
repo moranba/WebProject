@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import MenuBar from "./MenuBar";
 
 function App() {
   return (
     <div className="App">
+      <MenuBar></MenuBar>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
